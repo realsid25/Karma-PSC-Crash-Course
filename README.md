@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,7 +26,7 @@
             overflow: hidden;
         }
         .contact-container h1 {
-            color: #333;
+            color: white;
             margin-bottom: 20px;
             font-size: 24px;
             letter-spacing: 1px;
@@ -59,7 +58,7 @@
             background-color: #25D366;
         }
         .instagram {
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 20%);
         }
         .call {
             background-color: #007BFF;
