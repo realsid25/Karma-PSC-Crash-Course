@@ -26,7 +26,7 @@
             overflow: hidden;
         }
         .contact-container h1 {
-            color: white;
+            color: #333;
             margin-bottom: 20px;
             font-size: 24px;
             letter-spacing: 1px;
