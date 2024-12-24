@@ -7,26 +7,35 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f3f4f6;
+            background: linear-gradient(135deg, #6A11CB, #2575FC);
             margin: 0;
             padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            color: white;
         }
         .contact-container {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
             padding: 20px;
             text-align: center;
             max-width: 400px;
             width: 90%;
+            overflow: hidden;
         }
         .contact-container h1 {
             color: #333;
             margin-bottom: 20px;
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+        .contact-container img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
         }
         .contact-button {
             display: block;
@@ -40,23 +49,26 @@
             cursor: pointer;
             color: white;
             text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .contact-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
         }
         .whatsapp {
             background-color: #25D366;
         }
         .instagram {
-            background-color: #E1306C;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
         }
         .call {
             background-color: #007BFF;
-        }
-        .contact-button:hover {
-            opacity: 0.9;
         }
     </style>
 </head>
 <body>
     <div class="contact-container">
+        <img src="your-logo-or-banner.jpg" alt="Karma PSC Academy" />
         <h1>Contact Karma PSC Academy</h1>
         <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" target="_blank" class="contact-button whatsapp">Whatsapp Us</a>
         <a href="https://instagram.com/YOUR_INSTAGRAM_HANDLE" target="_blank" class="contact-button instagram">Follow on Instagram</a>
