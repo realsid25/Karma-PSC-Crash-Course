@@ -68,11 +68,11 @@
 </head>
 <body>
     <div class="contact-container">
-        <img src="your-logo-or-banner.jpg" alt="Karma PSC Academy" />
+        <img src="assets/images/Favicon.png" alt="Karma PSC Academy" />
         <h1>Contact Karma PSC Academy</h1>
-        <a href="https://wa.me/YOUR_WHATSAPP_NUMBER" target="_blank" class="contact-button whatsapp">Whatsapp Us</a>
-        <a href="https://instagram.com/YOUR_INSTAGRAM_HANDLE" target="_blank" class="contact-button instagram">Follow on Instagram</a>
-        <a href="tel:YOUR_PHONE_NUMBER" class="contact-button call">Call Us</a>
+        <a href="https://wa.me/918281858627" target="_blank" class="contact-button whatsapp">Whatsapp Us</a>
+        <a href="https://ig.me/m/karma_psc" target="_blank" class="contact-button instagram">Message us on Instagram</a>
+        <a href="tel:+918281858627" class="contact-button call">Call Us</a>
     </div>
 </body>
 </html>
